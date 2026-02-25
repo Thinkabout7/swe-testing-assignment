@@ -79,7 +79,7 @@ button:active {
 .equals {
   grid-row: span 2;
   height: 100%;
-  background: #ff9500;   /* nice operator color */
+  background:#ff9500;   /* nice operator color */
   font-weight: bold;
   font-size: 26px;
 }
