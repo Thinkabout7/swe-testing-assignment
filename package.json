@@ -1,10 +1,11 @@
 {
   "name": "swe-testing-assignment",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Thinkabout7/swe-testing-assignment/issues"
   },
-  "homepage": "https://github.com/Thinkabout7/swe-testing-assignment#readme"
+  "homepage": "https://github.com/Thinkabout7/swe-testing-assignment#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
 }
